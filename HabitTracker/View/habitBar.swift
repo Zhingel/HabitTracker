@@ -17,7 +17,7 @@ struct habitBar: View {
                 HStack {
                     Text("Все получится!")
                     Spacer()
-                    Text("\(Int(value*100))%")
+                    Text("\(value*100)%")
                 }
                 .font(.footnote)
                 .foregroundColor(.gray)
