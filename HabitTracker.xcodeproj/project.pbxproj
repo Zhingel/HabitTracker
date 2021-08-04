@@ -13,6 +13,10 @@
 		EE7F64A026B9431C00BD14D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7F649F26B9431C00BD14D4 /* Preview Assets.xcassets */; };
 		EE7F64A226B9431C00BD14D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7F64A126B9431C00BD14D4 /* Persistence.swift */; };
 		EE7F64A526B9431C00BD14D4 /* HabitTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE7F64A326B9431C00BD14D4 /* HabitTracker.xcdatamodeld */; };
+		EE7F64B026B94DC800BD14D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7F64AF26B94DC800BD14D4 /* Home.swift */; };
+		EE7F64B226B94E0700BD14D4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7F64B126B94E0700BD14D4 /* HomeViewModel.swift */; };
+		EE7F64B426B950A300BD14D4 /* NewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7F64B326B950A300BD14D4 /* NewDataView.swift */; };
+		EE7F64B626B973A600BD14D4 /* habitBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7F64B526B973A600BD14D4 /* habitBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EE7F64A126B9431C00BD14D4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EE7F64A426B9431C00BD14D4 /* HabitTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HabitTracker.xcdatamodel; sourceTree = "<group>"; };
 		EE7F64A626B9431C00BD14D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7F64AF26B94DC800BD14D4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EE7F64B126B94E0700BD14D4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EE7F64B326B950A300BD14D4 /* NewDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataView.swift; sourceTree = "<group>"; };
+		EE7F64B526B973A600BD14D4 /* habitBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habitBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				EE7F649826B9431A00BD14D4 /* HabitTrackerApp.swift */,
+				EE7F64AE26B94D9700BD14D4 /* ViewModel */,
+				EE7F64AC26B94D7D00BD14D4 /* View */,
 				EE7F649A26B9431A00BD14D4 /* ContentView.swift */,
 				EE7F649C26B9431C00BD14D4 /* Assets.xcassets */,
 				EE7F64A126B9431C00BD14D4 /* Persistence.swift */,
@@ -73,6 +83,24 @@
 				EE7F649F26B9431C00BD14D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE7F64AC26B94D7D00BD14D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F64AF26B94DC800BD14D4 /* Home.swift */,
+				EE7F64B326B950A300BD14D4 /* NewDataView.swift */,
+				EE7F64B526B973A600BD14D4 /* habitBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE7F64AE26B94D9700BD14D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F64B126B94E0700BD14D4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7F64A226B9431C00BD14D4 /* Persistence.swift in Sources */,
+				EE7F64B226B94E0700BD14D4 /* HomeViewModel.swift in Sources */,
 				EE7F64A526B9431C00BD14D4 /* HabitTracker.xcdatamodeld in Sources */,
+				EE7F64B026B94DC800BD14D4 /* Home.swift in Sources */,
 				EE7F649B26B9431A00BD14D4 /* ContentView.swift in Sources */,
 				EE7F649926B9431A00BD14D4 /* HabitTrackerApp.swift in Sources */,
+				EE7F64B626B973A600BD14D4 /* habitBar.swift in Sources */,
+				EE7F64B426B950A300BD14D4 /* NewDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
